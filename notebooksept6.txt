@@ -1,0 +1,11 @@
+Date  Who   Start   Stop  Interruptions Question TimeOnTask    Comments
+9/2  MW,     10:00  10:20  00               0        20          Creating CCIS account
+9/4  MW,IS     12:00  1:15  15               0   60             Linking Github account(Had to wait for the CCIS account to be active)
+9/4  MW,IS     23:30 23:40   5               0     5         Downloaded Racket + Installed it
+9/4  MW,IS     00:15  00:30   00         0       15           Installed Office 365
+
+    
+Total Time On Task Q1 (minutes)                  129 
+Total Time On Task Q2 (minutes)                  720 
+TOTQ1 (hours and tenths)                         2.1 
+TOTQ2 (hours and tenths)                         12.0
