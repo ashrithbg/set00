@@ -7,8 +7,16 @@
 ; Examples:
 ; (circle-area 1)  => 3.141592653589793 
 ; (circle-area 5 )  => 78.53981633974483
-; (circle-area 7 )=> 153.93804002589985
+; (circle-area 7 ) => 153.93804002589985
+; (circle-area 9)  => #i254.46900494077323
 
 
 (define (circle-area r)
   (* pi (* r r)))
+
+(circle-area 1)
+(circle-area 5)
+(circle-area 7)
+(circle-area 9)
+
+

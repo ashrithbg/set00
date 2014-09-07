@@ -5,11 +5,14 @@
 ; GIVEN: three numbers a,b,c 
 ; RETURNS: Quadratic root of the input number using the formula (-b+sqrt(b^2-4ac))/2a.
 ; Examples:
-; (quadratic-root 0 5 10) => divide by zero
 ; (quadratic-root 10 5 10) => #i-0.25+0.9682458365518543i
 ; (quadratic-root  -5 0 10) => #i-1.4142135623730951
 ; (quadratic-root  10 0 -10) => 1
 
 (define (quadratic-root a b c)
   (/ (+ (- 0 b) (sqrt (- (* b b) (* (* 4 a) c)))) (* 2 a)))
+
+(quadratic-root 10 5 10)
+(quadratic-root  -5 0 10)
+(quadratic-root  10 0 -10)
 

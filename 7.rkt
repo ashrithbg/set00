@@ -6,10 +6,17 @@
 ; RETURNS: its circumference, using the formula 2 * pi * r.
 ; Examples:
 ; (circumference 1)  =>  6.283185307179586 
-; (circumference 0)  =>  0
-;(circumference 0) =>0
-;(circumference 2.5) => 15.707963267948966
-;(circumference 1) => 6.283185307179586
+; (circumference 0) =>0
+; (circumference 2.5) => 15.707963267948966
+; (circumference 4) => #i25.132741228718345
 
 (define (circumference r)
   (* (* 2 pi) r))
+
+(circumference 1)
+(circumference 0)
+(circumference 2.5)
+(circumference 4)
+
+
+

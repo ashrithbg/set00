@@ -7,7 +7,13 @@
 ; Examples:
 ; (sq 5)  => 25
 ; (sq 0)  => 0
-;  (sq -1) => 1
+; (sq -1) => 1
+; (sq -4) => 16
 
 (define (sq x)
   (* x x))
+
+(sq 5)
+(sq 0)
+(sq -1)
+(sq -4)

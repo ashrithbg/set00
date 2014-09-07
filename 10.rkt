@@ -5,11 +5,24 @@
 ; GIVEN: three numbers 
 ; RETURNS: sum of the two larger numbers
 ; Examples:
-;(summax2  3 4 -1) => 7
-;(summax2  3.5 4.5 -1) => 8
-;(summax2  0 1 2) => 3 
+;(summax2  -1.5 0 1.5) =>1.5
+;(summax2  0 1 2) =>3
+;(summax2  6 4 5.5) =>11.5
+;(summax2  -1 -2 3) =>2
+;(summax2  4 3 -1) =>7
+;(summax2  0 0 0) =>0
+;(summax2 3 4 1) =>7
 
 (define (summax2 a b c)
   (+ (max a b c)
-     (min (max a b) (max b c))
+     (cond[(= (max a b c) (min (max a b) (max b c))) (min (max a b) (max a c))]
+          [else (min (max a b) (max b c))])
      ))
+
+(summax2  -1.5 0 1.5)
+(summax2  0 1 2)
+(summax2  6 4 5.5)
+(summax2  -1 -2 3)
+(summax2  4 3 -1)
+(summax2  0 0 0)
+(summax2 3 4 1)
